@@ -10,7 +10,7 @@ function setup() {
 function draw(){
     background(69, 37, 162, 10);
 
-    if (!estaMoviendo) {
+    if (estaMoviendo) {
 		for (let i = 0; i < sp.length - 1; i++) {
 			noFill();
 			stroke(235, 95, 122, 80);
